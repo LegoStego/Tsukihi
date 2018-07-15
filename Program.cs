@@ -24,7 +24,7 @@ namespace TS
 			client = new DiscordSocketClient();
 			commands = new CommandService();
 
-			string token = "NDY3ODA2NDA1MzI4NjMzODU2.DiwNsw.NPmj0nVN9FZ0zM3xvSlo8imNdyY";
+			string token = "";
 
 			services = new ServiceCollection()
 					.BuildServiceProvider();
